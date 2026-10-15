@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+
+# SSH Keys — KHÔNG BAO GIỜ commit private key!
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Logs
+*.log
+logs/
